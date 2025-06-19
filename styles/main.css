@@ -1,7 +1,7 @@
 body {
     max-width: 100%;
-    font-family: "Helvetica", sans-serif;
-    font-size: 11pt;
+    font-family: "system-ui", system-ui;
+    font-size: 14pt;
 }
 
 h1 {
@@ -10,8 +10,8 @@ h1 {
 }
 
 #calculator-header {
-    background-color: #233659;
-    padding: 10px;
+    background-color: #211c1c;
+    padding: 15px;
 }
 
 #calculator-header a {
@@ -21,20 +21,20 @@ h1 {
 
 #message-box {
     color: white;
-    margin-bottom: 10px;
+    margin-bottom: 18x;
 }
 
 #message-box > textarea {
     resize: vertical;
     width: 100%;
     box-sizing: border-box;
-    min-height: 5em;
+    min-height: 8em;
 }
 
 #information-box {
     display: grid;
     grid-template-columns: repeat(5, auto);
-    column-gap: 10px;
+    column-gap: 15px;
     grid-auto-flow: column;
     grid-template-rows: auto auto;
     justify-content: space-between;
@@ -42,16 +42,16 @@ h1 {
 #information-box > .label {
     padding-top: 5px;
     text-align: center;
-    font-size: small;
+    font-size: Medium;
     font-variant: all-petite-caps;
-    background-color: #233659;
+    background-color: #211c1c;
     color: white;
 }
 #information-box > .value {
     padding-top: 5px;
     font-size: medium;
     text-align: center;
-    background-color: #233659;
+    background-color: #211c1c;
     color: white;
     margin-bottom: 0;
 }
@@ -68,7 +68,7 @@ h1 {
 
 .label {
     display: block;
-    font-size: small;
+    font-size: Large;
     font-variant: all-petite-caps;
     padding-bottom: 5px;
 }
@@ -218,7 +218,7 @@ h1 {
 /* Legend                       */
 /********************************/
 .legend {
-    font-size: 10px;
+    font-size: 14px;
     background-color: #f9f9f9;
     padding: 0px 0px 5px 5px;
 }
@@ -226,7 +226,7 @@ h1 {
 .legend-block {
     display: inline;
     border: 1px solid rgba(0, 0, 0, 0.2);
-    font-size: 10px;
+    font-size: 14px;
     height: 1em;
     padding: 4px;
     width: 6ch;
