@@ -6,3 +6,7 @@ Many professionals and newcomers struggle to understand how messages are encoded
 it all comes down to SMS packet size (please refer to http://www.3gpp.org/ftp/Specs/html-info/23040.htm for extra details)
 
 The segmenting logic for GSM-7 and UCS-2 encoding follows these standards
+
+
+## License 
+See License.md
